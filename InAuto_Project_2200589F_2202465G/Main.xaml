@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>865.5999999999999,1787.1999999999998</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>865.5999999999999,2156.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -88,7 +88,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Main sequence of the project. Begins with a message declaring the project members and class." DisplayName="Sequence - RPA Process for Student Internships" sap:VirtualizedContainerService.HintSize="789.6,1722.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Main sequence of the project. Begins with a message declaring the project members and class." DisplayName="Sequence - RPA Process for Student Internships" sap:VirtualizedContainerService.HintSize="857.6,2092" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="in_user" />
       <Variable x:TypeArguments="x:String" Name="in_topic" />
@@ -104,23 +104,23 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="InAuto project by:" AutoCloseAfter="00:00:00" DisplayName="Message Box - Project Declaration" sap:VirtualizedContainerService.HintSize="727.2,116.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;InAuto Project RPA (Student Internships)&quot; + Environment.NewLine + &quot;Team Name: What is InAuto?&quot; + Environment.NewLine + &quot;Team Members: Chuang Kai Siang (2200589F), Joshua Lim Jing Lin (2202465G)&quot; + Environment.NewLine + &quot;Class: PE01&quot;]">
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="InAuto project by:" AutoCloseAfter="00:00:00" DisplayName="Message Box - Project Declaration" sap:VirtualizedContainerService.HintSize="795.2,116.8" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;InAuto Project RPA (Student Internships)&quot; + Environment.NewLine + &quot;Team Name: What is InAuto?&quot; + Environment.NewLine + &quot;Team Members: Chuang Kai Siang (2200589F), Joshua Lim Jing Lin (2202465G)&quot; + Environment.NewLine + &quot;Class: PE01&quot;]">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:MessageBox>
-    <Flowchart sap:VirtualizedContainerService.HintSize="727.2,1422.4" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="795.2,1792" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <av:Point x:Key="ShapeLocation">471,-0</av:Point>
           <av:Size x:Key="ShapeSize">60,75.2</av:Size>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
-          <av:PointCollection x:Key="ConnectorLocation">501,75.2 501,126</av:PointCollection>
-          <x:Double x:Key="Height">1385.6</x:Double>
-          <x:Double x:Key="Width">693.6</x:Double>
+          <av:PointCollection x:Key="ConnectorLocation">501,75.2 501,96</av:PointCollection>
+          <x:Double x:Key="Height">1754.887296309773</x:Double>
+          <x:Double x:Key="Width">761.6031467288667</x:Double>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
@@ -129,9 +129,9 @@
       <FlowStep x:Name="__ReferenceID0">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">401,126</av:Point>
+            <av:Point x:Key="ShapeLocation">401,96</av:Point>
             <av:Size x:Key="ShapeSize">200,84</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">501,210 501,260</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">501,180 501,200</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" sap2010:Annotation.AnnotationText="Inputs username." DisplayName="Input Dialog - Username" sap:VirtualizedContainerService.HintSize="200,84" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Please enter your name." Title="Username">
@@ -148,9 +148,9 @@
           <FlowStep x:Name="__ReferenceID1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <av:Point x:Key="ShapeLocation">401,260</av:Point>
+                <av:Point x:Key="ShapeLocation">401,200</av:Point>
                 <av:Size x:Key="ShapeSize">200,84</av:Size>
-                <av:PointCollection x:Key="ConnectorLocation">501,344 501,394</av:PointCollection>
+                <av:PointCollection x:Key="ConnectorLocation">501,284 500,284 500,306.4</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" sap2010:Annotation.AnnotationText="Inputs job topic." DisplayName="Input Dialog - Job Topic" sap:VirtualizedContainerService.HintSize="200,84" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Search for a job." Title="Job Topic">
@@ -164,184 +164,223 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:InputDialog>
             <FlowStep.Next>
-              <FlowStep x:Name="__ReferenceID2">
+              <FlowDecision x:Name="__ReferenceID11" sap2010:Annotation.AnnotationText="Checks for null values." DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_7">
+                <FlowDecision.Condition>
+                  <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="String.IsNullOrEmpty(in_user) or String.IsNullOrEmpty(in_topic)" />
+                </FlowDecision.Condition>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <av:Point x:Key="ShapeLocation">401,394</av:Point>
-                    <av:Size x:Key="ShapeSize">200,128.8</av:Size>
-                    <av:PointCollection x:Key="ConnectorLocation">501,522.8 501,572</av:PointCollection>
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <av:Point x:Key="ShapeLocation">460.8,306.4</av:Point>
+                    <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
+                    <av:PointCollection x:Key="FalseConnector">539.2,350 621,350 621,564 501,564 501,594</av:PointCollection>
+                    <av:PointCollection x:Key="TrueConnector">460.8,350 433.2718694712714,350 433.2718694712714,422.73813810143037 500,422.73813810143037 500,441.6</av:PointCollection>
+                    <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Assigning input values for username as well as job topic to be searched using arguments." DisplayName="AssignUsernameJobTopic.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,128.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="AssignUsernameJobTopic.xaml">
-                  <ui:InvokeWorkflowFile.Arguments>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_username">[in_user]</InArgument>
-                    <OutArgument x:TypeArguments="x:String" x:Key="out_username">[out_user]</OutArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="in_jobtopic">[in_topic]</InArgument>
-                    <OutArgument x:TypeArguments="x:String" x:Key="out_jobtopic">[out_topic]</OutArgument>
-                  </ui:InvokeWorkflowFile.Arguments>
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                </ui:InvokeWorkflowFile>
-                <FlowStep.Next>
-                  <FlowStep x:Name="__ReferenceID3">
+                <FlowDecision.True>
+                  <FlowStep x:Name="__ReferenceID12">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <av:Point x:Key="ShapeLocation">401,572</av:Point>
+                        <av:Point x:Key="ShapeLocation">400,441.6</av:Point>
                         <av:Size x:Key="ShapeSize">200,96.8</av:Size>
-                        <av:PointCollection x:Key="ConnectorLocation">501,668.8 501,698.8 501.6,698.8 501.6,719</av:PointCollection>
+                        <av:PointCollection x:Key="ConnectorLocation">400,490 370,490 370,138 401,138</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="Confirms and displays username and job type." DisplayName="Input Dialog - Confirmation Username and Job Type" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InputDialog_7" IsPassword="False" Label="[&quot;Is your username and job type correct?&quot; + Environment.NewLine + Environment.NewLine + &quot;Username: &quot; + out_user + Environment.NewLine + &quot;Job Type: &quot; + out_topic]" OptionsString="Yes;No" Title="Confirm username and job type">
-                      <ui:InputDialog.Result>
-                        <OutArgument x:TypeArguments="x:String">[confirm_user_topic]</OutArgument>
-                      </ui:InputDialog.Result>
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Warning message for null values." AutoCloseAfter="00:00:00" DisplayName="Message Box - Null values warning" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="MessageBox_8" Text="[&quot;Error! You have missing null values.&quot; + Environment.NewLine + &quot;Please retry.&quot;]">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                    </ui:InputDialog>
+                    </ui:MessageBox>
                     <FlowStep.Next>
-                      <FlowDecision x:Name="__ReferenceID4" sap2010:Annotation.AnnotationText="Confirms &quot;Yes&quot; or &quot;No&quot;" Condition="[confirm_user_topic.ToString().Equals(&quot;Yes&quot;, StringComparison.InvariantCultureIgnoreCase)]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            <av:Point x:Key="ShapeLocation">462,719</av:Point>
-                            <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
-                            <x:String x:Key="TrueLabel">Yes</x:String>
-                            <x:String x:Key="FalseLabel">No</x:String>
-                            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
-                            <av:PointCollection x:Key="TrueConnector">462,762.6 200,762.6 200,872</av:PointCollection>
-                            <av:PointCollection x:Key="FalseConnector">541.2,762.6 561,762.6 561,826 501,826 501,856</av:PointCollection>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <FlowDecision.True>
-                          <FlowStep x:Name="__ReferenceID5">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <av:Point x:Key="ShapeLocation">100,872</av:Point>
-                                <av:Size x:Key="ShapeSize">200,52.8</av:Size>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[&quot;ALLAHU AKBAR&quot;]">
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </ui:MessageBox>
-                          </FlowStep>
-                        </FlowDecision.True>
-                        <FlowDecision.False>
-                          <FlowStep x:Name="__ReferenceID6">
-                            <sap:WorkflowViewStateService.ViewState>
-                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                <av:Point x:Key="ShapeLocation">401,856</av:Point>
-                                <av:Size x:Key="ShapeSize">200,84</av:Size>
-                                <av:PointCollection x:Key="ConnectorLocation">501,940 501,970 501.6,970 501.6,990</av:PointCollection>
-                              </scg:Dictionary>
-                            </sap:WorkflowViewStateService.ViewState>
-                            <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="Prompts the user to retry." DisplayName="Input Dialog - Prompts User to Retry" sap:VirtualizedContainerService.HintSize="200,84" sap2010:WorkflowViewState.IdRef="InputDialog_8" IsPassword="False" Label="Would you like to retry?" OptionsString="Yes;No" Title="Retry">
-                              <ui:InputDialog.Result>
-                                <OutArgument x:TypeArguments="x:String">[confirm_retry]</OutArgument>
-                              </ui:InputDialog.Result>
-                              <sap:WorkflowViewStateService.ViewState>
-                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                </scg:Dictionary>
-                              </sap:WorkflowViewStateService.ViewState>
-                            </ui:InputDialog>
-                            <FlowStep.Next>
-                              <FlowDecision x:Name="__ReferenceID7" sap2010:Annotation.AnnotationText="Confirms &quot;Yes&quot; or &quot;No&quot;" Condition="[confirm_retry.ToString().Equals(&quot;Yes&quot;, StringComparison.InvariantCultureIgnoreCase)]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <av:Point x:Key="ShapeLocation">462,990</av:Point>
-                                    <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
-                                    <x:String x:Key="TrueLabel">Yes</x:String>
-                                    <x:String x:Key="FalseLabel">No</x:String>
-                                    <av:PointCollection x:Key="FalseConnector">541.2,1033.6 561,1033.6 561,1098 501,1098 501,1128</av:PointCollection>
-                                    <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
-                                    <av:PointCollection x:Key="TrueConnector">462,1033.6 280,1033.6 280,1131.6</av:PointCollection>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                                <FlowDecision.True>
-                                  <FlowStep x:Name="__ReferenceID9">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <av:Point x:Key="ShapeLocation">180,1131.6</av:Point>
-                                        <av:Size x:Key="ShapeSize">200,96.8</av:Size>
-                                        <av:PointCollection x:Key="ConnectorLocation">280,1228.3999999999999 280,1276.4</av:PointCollection>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="Prompts the user to retype all or just job type.." DisplayName="Input Dialog - Retype All or Job Type Only" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InputDialog_9" IsPassword="False" Label="Retype all options or job type only?" OptionsString="All;Job Type" Title="Decision all or job type only">
-                                      <ui:InputDialog.Result>
-                                        <OutArgument x:TypeArguments="x:String">[confirm_all_topic]</OutArgument>
-                                      </ui:InputDialog.Result>
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                    </ui:InputDialog>
-                                    <FlowStep.Next>
-                                      <FlowDecision x:Name="__ReferenceID10" sap2010:Annotation.AnnotationText="Confirms &quot;All&quot; or &quot;Job Type&quot;" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
-                                        <FlowDecision.Condition>
-                                          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="confirm_all_topic.ToString().Equals(&quot;All&quot;, StringComparison.InvariantCultureIgnoreCase)" />
-                                        </FlowDecision.Condition>
-                                        <sap:WorkflowViewStateService.ViewState>
-                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            <av:Point x:Key="ShapeLocation">240.39999999999998,1276.4</av:Point>
-                                            <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
-                                            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
-                                            <x:String x:Key="FalseLabel">Job Type</x:String>
-                                            <x:String x:Key="TrueLabel">All</x:String>
-                                            <av:PointCollection x:Key="FalseConnector">319.59999999999997,1320 631,1320 631,302 601,302</av:PointCollection>
-                                            <av:PointCollection x:Key="TrueConnector">240.39999999999998,1320 228,1320 228,1371.8000000000086 680.8000000000001,1371.8000000000086 680.8000000000001,168 601,168</av:PointCollection>
-                                          </scg:Dictionary>
-                                        </sap:WorkflowViewStateService.ViewState>
-                                        <FlowDecision.True>
-                                          <x:Reference>__ReferenceID0</x:Reference>
-                                        </FlowDecision.True>
-                                        <FlowDecision.False>
-                                          <x:Reference>__ReferenceID1</x:Reference>
-                                        </FlowDecision.False>
-                                      </FlowDecision>
-                                    </FlowStep.Next>
-                                  </FlowStep>
-                                </FlowDecision.True>
-                                <FlowDecision.False>
-                                  <FlowStep x:Name="__ReferenceID8">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <av:Point x:Key="ShapeLocation">401,1128</av:Point>
-                                        <av:Size x:Key="ShapeSize">200,96.8</av:Size>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Closing statements to the user." AutoCloseAfter="00:00:00" DisplayName="Message Box - Closing Statements" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[&quot;Thank you for using our RPA Process for Student Internships.&quot;]">
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                    </ui:MessageBox>
-                                  </FlowStep>
-                                </FlowDecision.False>
-                              </FlowDecision>
-                            </FlowStep.Next>
-                          </FlowStep>
-                        </FlowDecision.False>
-                      </FlowDecision>
+                      <x:Reference>__ReferenceID0</x:Reference>
                     </FlowStep.Next>
                   </FlowStep>
-                </FlowStep.Next>
-              </FlowStep>
+                </FlowDecision.True>
+                <FlowDecision.False>
+                  <FlowStep x:Name="__ReferenceID2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <av:Point x:Key="ShapeLocation">401,594</av:Point>
+                        <av:Size x:Key="ShapeSize">200,128.8</av:Size>
+                        <av:PointCollection x:Key="ConnectorLocation">501,722.8 501,742</av:PointCollection>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" sap2010:Annotation.AnnotationText="Assigning input values for username as well as job topic to be searched using arguments." DisplayName="AssignUsernameJobTopic.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="200,128.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="AssignUsernameJobTopic.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_username">[in_user]</InArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="out_username">[out_user]</OutArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_jobtopic">[in_topic]</InArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="out_jobtopic">[out_topic]</OutArgument>
+                      </ui:InvokeWorkflowFile.Arguments>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:InvokeWorkflowFile>
+                    <FlowStep.Next>
+                      <FlowStep x:Name="__ReferenceID3">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <av:Point x:Key="ShapeLocation">401,742</av:Point>
+                            <av:Size x:Key="ShapeSize">200,96.8</av:Size>
+                            <av:PointCollection x:Key="ConnectorLocation">501,838.8 500,838.8 500,856.4000000000001</av:PointCollection>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="Confirms and displays username and job type." DisplayName="Input Dialog - Confirmation Username and Job Type" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InputDialog_7" IsPassword="False" Label="[&quot;Is your username and job type correct?&quot; + Environment.NewLine + Environment.NewLine + &quot;Username: &quot; + out_user + Environment.NewLine + &quot;Job Type: &quot; + out_topic]" OptionsString="Yes;No" Title="Confirm username and job type">
+                          <ui:InputDialog.Result>
+                            <OutArgument x:TypeArguments="x:String">[confirm_user_topic]</OutArgument>
+                          </ui:InputDialog.Result>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:InputDialog>
+                        <FlowStep.Next>
+                          <FlowDecision x:Name="__ReferenceID4" sap2010:Annotation.AnnotationText="Confirms &quot;Yes&quot; or &quot;No&quot;" Condition="[confirm_user_topic.ToString().Equals(&quot;Yes&quot;, StringComparison.InvariantCultureIgnoreCase)]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <av:Point x:Key="ShapeLocation">460.8,856.4000000000001</av:Point>
+                                <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
+                                <x:String x:Key="TrueLabel">Yes</x:String>
+                                <x:String x:Key="FalseLabel">No</x:String>
+                                <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                                <av:PointCollection x:Key="TrueConnector">460.8,900.0000000000001 200,900.0000000000001 200,1022</av:PointCollection>
+                                <av:PointCollection x:Key="FalseConnector">539.2,900.0000000000001 561,900.0000000000001 561,976 501,976 501,1006</av:PointCollection>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <FlowDecision.True>
+                              <FlowStep x:Name="__ReferenceID5">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <av:Point x:Key="ShapeLocation">100,1022</av:Point>
+                                    <av:Size x:Key="ShapeSize">200,52.8</av:Size>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[&quot;ALLAHU AKBAR&quot;]">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:MessageBox>
+                              </FlowStep>
+                            </FlowDecision.True>
+                            <FlowDecision.False>
+                              <FlowStep x:Name="__ReferenceID6">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <av:Point x:Key="ShapeLocation">401,1006</av:Point>
+                                    <av:Size x:Key="ShapeSize">200,84</av:Size>
+                                    <av:PointCollection x:Key="ConnectorLocation">501,1090 501,1120 500,1120 500,1126.4</av:PointCollection>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="Prompts the user to retry." DisplayName="Input Dialog - Prompts User to Retry" sap:VirtualizedContainerService.HintSize="200,84" sap2010:WorkflowViewState.IdRef="InputDialog_8" IsPassword="False" Label="Would you like to retry?" OptionsString="Yes;No" Title="Retry">
+                                  <ui:InputDialog.Result>
+                                    <OutArgument x:TypeArguments="x:String">[confirm_retry]</OutArgument>
+                                  </ui:InputDialog.Result>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:InputDialog>
+                                <FlowStep.Next>
+                                  <FlowDecision x:Name="__ReferenceID7" sap2010:Annotation.AnnotationText="Confirms &quot;Yes&quot; or &quot;No&quot;" Condition="[confirm_retry.ToString().Equals(&quot;Yes&quot;, StringComparison.InvariantCultureIgnoreCase)]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_4">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <av:Point x:Key="ShapeLocation">460.8,1126.4</av:Point>
+                                        <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
+                                        <x:String x:Key="TrueLabel">Yes</x:String>
+                                        <x:String x:Key="FalseLabel">No</x:String>
+                                        <av:PointCollection x:Key="FalseConnector">539.2,1170 561,1170 561,1238 501,1238 501,1268</av:PointCollection>
+                                        <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                                        <av:PointCollection x:Key="TrueConnector">460.8,1170 380,1170 380,1391.6 500,1391.6 500,1421.6</av:PointCollection>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <FlowDecision.True>
+                                      <FlowStep x:Name="__ReferenceID9">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <av:Point x:Key="ShapeLocation">400,1421.6</av:Point>
+                                            <av:Size x:Key="ShapeSize">200,96.8</av:Size>
+                                            <av:PointCollection x:Key="ConnectorLocation">500,1518.3999999999999 500,1536.4</av:PointCollection>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:InputDialog Options="{x:Null}" sap2010:Annotation.AnnotationText="Prompts the user to retype all or just job type.." DisplayName="Input Dialog - Retype All or Job Type Only" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="InputDialog_9" IsPassword="False" Label="Retype all options or job type only?" OptionsString="All;Job Type" Title="Decision all or job type only">
+                                          <ui:InputDialog.Result>
+                                            <OutArgument x:TypeArguments="x:String">[confirm_all_topic]</OutArgument>
+                                          </ui:InputDialog.Result>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </ui:InputDialog>
+                                        <FlowStep.Next>
+                                          <FlowDecision x:Name="__ReferenceID10" sap2010:Annotation.AnnotationText="Confirms &quot;All&quot; or &quot;Job Type&quot;" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.4,87.2" sap2010:WorkflowViewState.IdRef="FlowDecision_5">
+                                            <FlowDecision.Condition>
+                                              <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="confirm_all_topic.ToString().Equals(&quot;All&quot;, StringComparison.InvariantCultureIgnoreCase)" />
+                                            </FlowDecision.Condition>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <av:Point x:Key="ShapeLocation">460.8,1536.4</av:Point>
+                                                <av:Size x:Key="ShapeSize">78.4,87.2</av:Size>
+                                                <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+                                                <x:String x:Key="FalseLabel">Job Type</x:String>
+                                                <x:String x:Key="TrueLabel">All</x:String>
+                                                <av:PointCollection x:Key="FalseConnector">539.2,1580 655.0872361652179,1580 655.0872361652179,242 601,242</av:PointCollection>
+                                                <av:PointCollection x:Key="TrueConnector">460.8,1580 442.4278283788938,1580 442.4278283788938,1631.445977036613 691.5431346428735,1631.445977036613 691.5431346428735,138 601,138</av:PointCollection>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <FlowDecision.True>
+                                              <x:Reference>__ReferenceID0</x:Reference>
+                                            </FlowDecision.True>
+                                            <FlowDecision.False>
+                                              <x:Reference>__ReferenceID1</x:Reference>
+                                            </FlowDecision.False>
+                                          </FlowDecision>
+                                        </FlowStep.Next>
+                                      </FlowStep>
+                                    </FlowDecision.True>
+                                    <FlowDecision.False>
+                                      <FlowStep x:Name="__ReferenceID8">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <av:Point x:Key="ShapeLocation">401,1268</av:Point>
+                                            <av:Size x:Key="ShapeSize">200,96.8</av:Size>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="Closing statements to the user." AutoCloseAfter="00:00:00" DisplayName="Message Box - Closing Statements" sap:VirtualizedContainerService.HintSize="200,96.8" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[&quot;Thank you for using our RPA Process for Student Internships.&quot;]">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                        </ui:MessageBox>
+                                      </FlowStep>
+                                    </FlowDecision.False>
+                                  </FlowDecision>
+                                </FlowStep.Next>
+                              </FlowStep>
+                            </FlowDecision.False>
+                          </FlowDecision>
+                        </FlowStep.Next>
+                      </FlowStep>
+                    </FlowStep.Next>
+                  </FlowStep>
+                </FlowDecision.False>
+              </FlowDecision>
             </FlowStep.Next>
           </FlowStep>
         </FlowStep.Next>
@@ -356,6 +395,8 @@
       <x:Reference>__ReferenceID8</x:Reference>
       <x:Reference>__ReferenceID9</x:Reference>
       <x:Reference>__ReferenceID10</x:Reference>
+      <x:Reference>__ReferenceID11</x:Reference>
+      <x:Reference>__ReferenceID12</x:Reference>
     </Flowchart>
   </Sequence>
 </Activity>
