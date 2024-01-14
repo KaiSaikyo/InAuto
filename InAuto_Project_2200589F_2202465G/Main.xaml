@@ -759,7 +759,7 @@
                                                                 <av:Size x:Key="ShapeSize">200,143.2</av:Size>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <Sequence sap2010:Annotation.AnnotationText="Scraping data from the website to generate emails from bard." DisplayName="Sequence - Scrap Data to Bard" sap:VirtualizedContainerService.HintSize="713.6,6534.4" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                                                            <Sequence sap2010:Annotation.AnnotationText="Scraping data from the website to generate emails from bard." DisplayName="Sequence - Scrap Data to Bard" sap:VirtualizedContainerService.HintSize="713.6,6386.4" sap2010:WorkflowViewState.IdRef="Sequence_35">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -775,25 +775,25 @@
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
                                                               </ui:ReadRange>
-                                                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DT_GeneratingEmail]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="651.2,6263.2" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+                                                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[DT_GeneratingEmail]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="651.2,6115.2" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
                                                                 <ui:ForEachRow.Body>
                                                                   <ActivityAction x:TypeArguments="sd:DataRow">
                                                                     <ActivityAction.Argument>
                                                                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
                                                                     </ActivityAction.Argument>
-                                                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="617.6,6075.2" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                                                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="617.6,5927.2" sap2010:WorkflowViewState.IdRef="Sequence_37">
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: New tab" sap:VirtualizedContainerService.HintSize="574.4,1472.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8297b777-1b89-4aae-b48d-a1aca9b6675f" Version="V2">
+                                                                      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: New tab" sap:VirtualizedContainerService.HintSize="574.4,1324.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_11" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="8297b777-1b89-4aae-b48d-a1aca9b6675f" Version="V2">
                                                                         <uix:NApplicationCard.Body>
                                                                           <ActivityAction x:TypeArguments="x:Object">
                                                                             <ActivityAction.Argument>
                                                                               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                                                             </ActivityAction.Argument>
-                                                                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540.8,1256" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                                                                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540.8,1108" sap2010:WorkflowViewState.IdRef="Sequence_36">
                                                                               <sap:WorkflowViewStateService.ViewState>
                                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -856,33 +856,39 @@
                                                                                   <uix:TargetAnchorable BrowserURL="https://glints.com/sg/opportunities/jobs/airport-lounge-bartender-intern-6-months/a343d364-5c0e-4c45-a644-1d5b1246e87e?utm_referrer=explore" DesignTimeRectangle="94, 417, 963, 1086" DesignTimeScaleFactor="1.25" FriendlyName="'Job description'" FullSelectorArgument="&lt;webctrl aria-label='Job Description' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Job Description' tag='DIV' type='' class='Opportunitysc__JobDescriptionContainer-sc-gb4ubh-6 fhGqZb' aaname='' /&gt;" Guid="7624226d-3543-4ef7-9fc7-c4a5d0975826" ImageBase64="" InformativeScreenshot="1399a13cf3ca81164acef780354fd41e.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Airport Lounge Bartender Intern (6 months) Jobs at SATS Ltd, Singapore | Glints' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
                                                                                 </uix:NGetText.Target>
                                                                               </uix:NGetText>
-                                                                              <Assign sap:VirtualizedContainerService.HintSize="478.4,82.4" sap2010:WorkflowViewState.IdRef="Assign_5">
-                                                                                <Assign.To>
-                                                                                  <OutArgument x:TypeArguments="x:String">[text_description]</OutArgument>
-                                                                                </Assign.To>
-                                                                                <Assign.Value>
-                                                                                  <InArgument x:TypeArguments="x:String">[text_description.Remove(text_description.LastIndexOf("Read Less"))]</InArgument>
-                                                                                </Assign.Value>
-                                                                              </Assign>
-                                                                              <Assign sap:VirtualizedContainerService.HintSize="478.4,82.4" sap2010:WorkflowViewState.IdRef="Assign_7">
-                                                                                <Assign.To>
-                                                                                  <OutArgument x:TypeArguments="x:String">[text_description]</OutArgument>
-                                                                                </Assign.To>
-                                                                                <Assign.Value>
-                                                                                  <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Replace(text_description, "[^a-zA-Z0-9 +()#&amp;!_=@^*-]", "")]</InArgument>
-                                                                                </Assign.Value>
-                                                                              </Assign>
-                                                                              <Assign sap:VirtualizedContainerService.HintSize="478.4,83.2" sap2010:WorkflowViewState.IdRef="Assign_6">
-                                                                                <Assign.To>
-                                                                                  <OutArgument x:TypeArguments="x:String">[text_prompt]</OutArgument>
-                                                                                </Assign.To>
-                                                                                <Assign.Value>
-                                                                                  <InArgument x:TypeArguments="x:String" xml:space="preserve">["Help create and generate an email for the role of " + text_role + ". " +
+                                                                              <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                                                                                <ui:MultipleAssign.AssignOperations>
+                                                                                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                                                                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                                                                                      <ui:AssignOperation.To>
+                                                                                        <OutArgument x:TypeArguments="x:String">[text_description]</OutArgument>
+                                                                                      </ui:AssignOperation.To>
+                                                                                      <ui:AssignOperation.Value>
+                                                                                        <InArgument x:TypeArguments="x:String">[text_description.Remove(text_description.LastIndexOf("Read Less"))]</InArgument>
+                                                                                      </ui:AssignOperation.Value>
+                                                                                    </ui:AssignOperation>
+                                                                                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                                                                                      <ui:AssignOperation.To>
+                                                                                        <OutArgument x:TypeArguments="x:String">[text_description]</OutArgument>
+                                                                                      </ui:AssignOperation.To>
+                                                                                      <ui:AssignOperation.Value>
+                                                                                        <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Replace(text_description, "[^a-zA-Z0-9 +()#&amp;!_=@^*-]", "")]</InArgument>
+                                                                                      </ui:AssignOperation.Value>
+                                                                                    </ui:AssignOperation>
+                                                                                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                                                                                      <ui:AssignOperation.To>
+                                                                                        <OutArgument x:TypeArguments="x:String">[text_prompt]</OutArgument>
+                                                                                      </ui:AssignOperation.To>
+                                                                                      <ui:AssignOperation.Value>
+                                                                                        <InArgument x:TypeArguments="x:String" xml:space="preserve">["Help create and generate an email for the role of " + text_role + ". " +
 "The company is by " + text_company + ", and the " +  text_description + ". " +
 "Here are the applicant's details to be used in the email: " + out_userdetails + " " +
 "Ensure that the following steps are thoroughly followed. Ensure that the email is as very concise and straight to the point. Begin by incorporating greetings such as 'Dear Hiring Manager,', then personal introduction, job discovery source, and motivations for seeking employment in a unified single-paragraph format. In the second and third paragraphs, present a cohesive overview of both technical and soft skills, ensuring a seamless connection between the two skill sets. Maintain strict adherence to the specified structure and content throughout, with each segment contained within a single paragraph. Conclude the email body in the fourth paragraph, summarizing key points and ensuring a comprehensive conclusion, sign off with 'Best Regards, applicant's name'. Follow the specified format precisely, limiting the email body to four body paragraphs."]</InArgument>
-                                                                                </Assign.Value>
-                                                                              </Assign>
+                                                                                      </ui:AssignOperation.Value>
+                                                                                    </ui:AssignOperation>
+                                                                                  </scg:List>
+                                                                                </ui:MultipleAssign.AssignOperations>
+                                                                              </ui:MultipleAssign>
                                                                             </Sequence>
                                                                           </ActivityAction>
                                                                         </uix:NApplicationCard.Body>
@@ -923,7 +929,7 @@
                                                                                   <uix:TargetAnchorable BrowserURL="https://chat.openai.com/" DesignTimeRectangle="1532, 935, 30, 30" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span&amp;gt;svg' parentid='__next' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='__next' tag='svg' class='text-white dark:text-black' aaname='' /&gt;" Guid="cf0bc6c5-9f94-4c6a-8974-f1fd16a9a918" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEYSURBVFhH7ZjJDoIwFEX5IydYoIIIJtRpof7/t9TcmkfCs5gOarvo4iSPB/QehhDaLC8aCfbtRfbiLo+nx99AHnKRr0RCSBAkk22rPpgEgfwstAQRj4iuGYIkwvES6cVNlutOgVp3jCnOIgjOi1rO5qUCtY+MkwiX+IaMtciUBOEqYyXCJRbLjbZ2kTEWwcCrvBrCUO/b87CNmu+3kTESEcf76E7QFbfdZeih5ncMNc7VjckxEqnqfjQ4XSkXQY/L1DsxGmsKI5HucH2TADoRQDLzxVqdS/1PWL2snCkRF5IIJ4lwkgjHS4S+L8D0ezGFlwigHyPdPhu8Rb5FPCJpgsWIZ+4bzWpAVOsjBD2mXwtRBvJe2Y18Aqg4b5jH4rUWAAAAAElFTkSuQmCC" InformativeScreenshot="e807424b3df1d6ff17867ba358c7048c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ChatGPT' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive" />
                                                                                 </uix:NClick.Target>
                                                                               </uix:NClick>
-                                                                              <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                                                                              <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
                                                                               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PATH'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_56" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5b77d02f-15cc-4498-9bfe-878424fcb74f" Version="V3">
                                                                                 <uix:NClick.Target>
                                                                                   <uix:TargetAnchorable BrowserURL="https://chat.openai.com/c/23771cec-1a98-4f36-8779-80be24ea8757" DesignTimeRectangle="1079, 864, 13, 15" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'PATH'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg&amp;gt;path' parentid='__next' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='__next' tag='path' class='' aaname='' /&gt;" Guid="1f18ca73-26d5-4185-ac60-9b10d0e77027" InformativeScreenshot="d779e41e69bf1227bdf8316da7d56c48.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Intern Application: Technical Skills' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
