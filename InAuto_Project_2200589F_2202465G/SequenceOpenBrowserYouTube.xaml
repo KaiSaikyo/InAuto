@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SequenceOpenBrowserYouTube" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SequenceOpenBrowserYouTube" sap:VirtualizedContainerService.HintSize="865.6,1522.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -119,13 +119,14 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_70">
+  <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="608,1457.6" sap2010:WorkflowViewState.IdRef="Sequence_70">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="545.6,1158.4" sap2010:WorkflowViewState.IdRef="Sequence_68">
+    <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="545.6,1314.4" sap2010:WorkflowViewState.IdRef="Sequence_68">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -133,19 +134,19 @@
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" sap:VirtualizedContainerService.HintSize="483.2,1015.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_19" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V2">
+      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Shows the project video made by us." AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" sap:VirtualizedContainerService.HintSize="483.2,1171.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_19" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,798.4" sap2010:WorkflowViewState.IdRef="Sequence_69">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,923.2" sap2010:WorkflowViewState.IdRef="Sequence_69">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_93" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V3">
+              <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Click settings button." ClickType="Single" DelayBefore="2" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="387.2,188.8" sap2010:WorkflowViewState.IdRef="NClick_93" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.youtube.com/watch?v=TRllt7uCWto" DesignTimeRectangle="997, 794, 60, 60" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'BUTTON'" FullSelectorArgument="&lt;webctrl aria-label='Settings' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Settings' tag='BUTTON' type='' class='ytp-button ytp-settings-button' aaname='Settings' /&gt;" Guid="f3835d1f-d507-4169-b1c6-47b2bd5a2517" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAASVSURBVHhe7ZhbbxNHFMfnGzRZO75fUyCt2vT2WqAXgVKklD70A6AiSgmJ4xBKFfHQCsRnoLmpX4CKqi2ll0dKqURSKYYXGgnHrhIn+RSn5z9mHdt7LIF3vC+zDz97vDvnzPz/e2ZmE3X69KdkM6EBExOTZDNqtPgK2UxogHTRJkIDRotj3LCX0ADpok2EBhQLY2QzbMARbtiLKvCHzYQGFPKHyWZUnj9sRuVzh8hmQgNy/BEo2ZcpkylSOl3wgOu4L8YNCKUHDJB0Kk9jR16j2dlLHg4felUbIcUNikANyGZHKZXM0e+//UH7+/se7t79Vd9HPyl+ECgMFhQo8SQLfPzosWhApVLR99FPih8EKpvhxgBIcaknk1ktCGWv1/2za/X6f6IBtVpd3+/sn2tdk8bxy0AMwDrGpJcWl2lubl63Xa5cWRDFg729Pbp8+auO/ohHHrSRVxrPDwpOGyXNZZ7giZfnW8Kq1S1aWlqh9fV/OgT3Av1WV7+jra1a61qpNKfzIr84bp8ondAgehPLFLTodlF+QT7kBtK4/cIG8PlrCJRoIp6hlZVVUYRfFnkpIL9+ZzCEQjJToETffOMdajQaooButre3aXNzU39L97vZ2dmh8fG39TjS+P1g1AA8nfPnp8TJtwPBMzNl7p9uUS5fei4jzp79nBKJZhWYQOF4MQV26jiLgTg8LUnA7u4unTz5ke6HJ4k17cZ9PPmJPgmkONc0HYcTQRi/HxTOa5MkWFQ8lqLjxz/s2MVdbt36Xt/H+d4Ry7/jsTTdufOLJ+bp0yodffe9ZhxMa4/ziXJ3VpNgkpjsgwd/e8QsLFzVQqU4PN3r1294Yu7d+/NAvBDnh4EZEOMJ37//F5c0XnAO+Obra70N4Ou43x0DA5AP1SXF+UFhPZkEG2FsJMlL4AO9BLrF3L79g74PMR2xz0z76cefPTF4Bzh27P1mHOfviPOJwsCmwG4+wpOcni7xprXjEQIajV06cWJCi0HJQxC+8fvUqUneJPfEOORDXuTXG6Ewfj8oPAlTQMS5c1+IAtrBjn7hwrQW41KebR6DUv92zpz5rFVBJmADMtwwA0p4/PW3ej79biD4yZN/n0s4QF7kb+4H8hxeFIUSNAVKcySa0K+skgC/fHtzUedvvjzJc3hR2ICDtzEToDyT7Gy1WhVF9AvyxWLJZvkL4/aLwlMzCh9lUX5KpVK5NflarUbLyyu0trbeIaoXDx+u6f6Ic69dvDij8yK/OG6fKJ3QMNjUopE43eSShRFou8zPf9lzp8f17v74jTxo6xNAGM8PbECKG+aJRg9EYN2idF1j6vW6aACeuCtU9+e49hzSOH5R2FGDAsIikRhVKo9YMKqgk42NDX1fGyDEDwIFp4PCNQD//pYMwB9CLQMCQmGwIIHAQn6UpqamPeSyxZYBQRG4AVjLEV7TENqNu9bFuAGh9IAWo3C22gwbwMeMxSj3nLUV1dyQ7IUN8O7GNqEiDjcsRjn8YTNswAg37EU5w9ywGDU8HCWbCQ0YHuKGxaihoQjZjBp6ySGbCQ2IOBF+I7IDx3G6cOh/bwio27eRCEQAAAAASUVORK5CYII=" InformativeScreenshot="b859b874103b9fbdfa6a4379b7fb3b9c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='InAuto Final Project Video PE01 KaiSiang &amp;amp; Joshua - YouTube' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -155,8 +156,13 @@
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Quality'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_94" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V3">
+              <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Click quality button." ClickType="Single" DisplayName="Click 'Quality'" sap:VirtualizedContainerService.HintSize="387.2,188.8" sap2010:WorkflowViewState.IdRef="NClick_94" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.youtube.com/watch?v=TRllt7uCWto" CvTextArea="960, 733, 55, 20" CvTextArgument="Quality" CvType="Text" DesignTimeRectangle="963, 717, 133, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Quality'" FullSelectorArgument="&lt;webctrl aaname='Quality' class='ytp-menuitem-label' parentid='ytp-id-18' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Quality' class='ytp-menuitem-label' parentid='ytp-id-18' tag='DIV' type='' check:innerText='Quality' /&gt;" Guid="ded10b5b-1ae1-4a0e-9676-123391a623c4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIkAAAA2CAYAAADzuLppAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUwSURBVHhe7ZhbSx1XFMf7Kbwd7YOmH8C+2dS3NBaEaFNJTV988goiCg1SQajXkMSSxGIaPYqiKIig4O1BUBBFFC+ooHjBu3j3K6z6X2FN9hnH7tOcc9oG1sOPffaePWufmfWbvffMFwkJX5Ki/B03kiTc/FCUu1FJFCsqiWJFJVGsqCSKFZVEsaKSKFZUEsWKSqJYUUkUKyqJYkUlUayoJIoVlUSxopIoVlQSxYpKolhRSRQrKolixVOS+Pj4W3j1Cwde8SM5nvLPuSUJEhQX56PY2LgAfD5f2JOHeIiL8aSU8c3xUIZ7bCV4AiRBIpKTv6b29nba3d2lq6sruri4oJWVFSovL3eSaJ4TChBhZGSErq+vye9v5fgdHR10eXlJQ0NDjihoD/fYSvA4kiAB9+59RcPDwyzH6ekpLS4u0tbWllN/Xv/cSZZgBgumXY6hRCyMB0laWvw8Y0GW8/NzlgT1/Px8Ojw8pPX1dcrM/OFWHK8xzHYldBxJ8NS+fPGSzs7OaG9vj0pKSigmJpZpa2vjGQXCPHnyEydXlgd52sFdbeayJZKhBB8laeHjMiZAPS8vz5EkIyMzII45jsSTNvMildBgSXBTceOnpqY4YV1dXU4iwMOHabS6uspPeEPD75xAc5kQOaQNpZxfXVVNm5ubztKF2Sk3N9c57pYEMwrqaJdjJj09PbS0tMRL0rt3f3IMnGeOrZKEF0cSTOV4WrGs1NbU8s1Huwg0OjrKSRgcHGRJ3MkF0oYSdQiCeMfHxzQwMEBzc3Msy/LyMotnnoM4iItSYlRUVFBvby/HwB6pu7ubCgoKqLOzk+NAapzz4MF3vG+S/66ShBdHksePf6SNjQ06OjqioqKigKncLUCwkoyPj3O9tbWVoqNjbkTM5DFOTk6o6rcqT0mam5sDxsGsY+5JcE5paSn/Tyx/2dnZLBNimvsW94Uqn44jydOnP/NND5ck6CNAEBAVFcWziTzx7jiouyUx9yQQADNcSkoKLSws8PL36lUDL484p7+/n/+HShJeIrbcoM/9+99y4g4ODnh5wDGAMaqra6ySIKaXJMDv93PMsbExmp2d5ZiVlZUst/sildAIauMqaz42i42Nf3gm12xDiZlD6tisPvvlGS8dmAFCkQT/FSIUFhayfHgTw54HG+u0tO/5uPsildBgSQBkeOHxCoxkm6/AWVlZAbMGhIqOjqbExESamJhwEpyenk5ra2sfZqbaOl5qUlK+4TeTT5UEr8AiLr7pTE9Pc18gS43Pp5KEG0cS3Fyvj2lIjtTr6uo5EeD16zcsDtqxz5B+kmAkfHJykus7Ozs0MzND29vbTqy79iQoJQbGycnJ4fMxFgSrqalxRGlqauLZDZtWbF7RZl6cEh4cSQBESU5ODvgsj4SB/f19qvi1ghOHZKAfnl4kHP3wLUQSLt9JHj3KYFGQYDA/P8/LDfrgdRZ95PuGfJZHacZAG96OZBz5NgJklsFSiCVRZ5HIECAJwI1GApAgPNlJSUmcULxJgPfvm7mP2c8N2oPpY8MdQ9qkLjNJX1+fc8x9PUro3JIEfNgcBiao/mapwUyRmprqJEP6uDE3j17HgfSRsaS/nGPGMP8PKCsrc16lsX8qLi6+FUMJH56SuDET9F8nA+NjXwJB8E3n7dtGnUUiTFCS/N+AEBBDUEEiy2cpCYAYwFyWlMjw2Uqi/HuoJIoVlUSxopIoVlQSxYpKolhRSRQrKoliRSVRrKgkihWVRLGikihWVBLFikqiWFFJFAsJ9BePHW//hzLJuwAAAABJRU5ErkJggg==" InformativeScreenshot="9a00ca13479c83b27bd970191feceb10.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='InAuto Final Project Video PE01 KaiSiang &amp;amp; Joshua - YouTube' /&gt;" SearchSteps="FuzzySelector, Image" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -166,8 +172,13 @@
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Quality'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_95" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V3">
+              <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Click 1080p." ClickType="Single" DisplayName="Click 'Quality'" sap:VirtualizedContainerService.HintSize="387.2,188.8" sap2010:WorkflowViewState.IdRef="NClick_95" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V3">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable BrowserURL="https://www.youtube.com/watch?v=TRllt7uCWto" CvTextArea="966, 532, 47, 20" CvTextArgument="1080p" CvType="Text" DesignTimeRectangle="968, 532, 50, 19" DesignTimeScaleFactor="1.25" FriendlyName="'1080p HD'" FullSelectorArgument="&lt;webctrl aaname='1080p ' parentid='ytp-id-18' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1080p ' parentid='ytp-id-18' tag='SPAN' type='' class='' check:innerText='1080p HD' /&gt;" Guid="7376d38f-1cd6-4f80-aabe-63e8446ea256" InformativeScreenshot="1ca19458c55c602fed34ee549564c47a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='InAuto Final Project Video PE01 KaiSiang &amp;amp; Joshua - YouTube' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
@@ -177,14 +188,30 @@
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NClick.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
               </uix:NClick>
-              <Delay Duration="00:07:50" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_4" />
+              <Delay sap2010:Annotation.AnnotationText="Delays to the length of the youtube video." Duration="00:07:50" sap:VirtualizedContainerService.HintSize="387.2,121.6" sap2010:WorkflowViewState.IdRef="Delay_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Delay>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
         <uix:NApplicationCard.TargetApp>
           <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAACp0lEQVRYR8XXz0tUURQH8K8/8hZiYfmDmqgLuQhrE+1diLRxldAfEIQQBBJIIkHQKqpFG0FIEVsFQlGJRokEgqFgmo7m2GCvH8yEjDkkIaLl6XsfDoGc12g4rwufWZxz7j2H92OYgYj8V2owTGowTGowTFhdXfWt0Dda2JTe9J3kjzwq+It88mvXKXPGEmXOTdEPyvSFtRYROk6XrD3Tae3lfmvvxqztnrf26WdrBzesHRZr39AkzdI7hYtP0ziNrlg7xP0v6XHU2q4+a+/w7CtN1tactjbvMPu53v46CBQ/Abo3gF/+XcmxceDVSeCY37wQyBtgc60wl2LAUAlQhHPAWQZ+bi0Iw3mgFjeBJi0ZhnvAdTwE2rVkGHqBB3gNPNOSgcrLRVpbRUpL9fwOsPcA4sCwlgzkBlhfF4nHRRoa9Jpt+gSMg09jVEsGKisTSaX4Jba5enpEqqr02iySwJwbYE5LBto6gFvptEhzs0hRkb4nQAL4whEQ05KBtAEya2JCpL5e36f4CiTxYTeuQGa5K9HYqO9TLLgBduUWuNXRIRKJ6HsC8BYk3AAzWjLQ1gHGxkTq6vTaLDjAPN4DI1oykBtgbU1keVmkpUXEGL1uG/gWTGEM6NeSgSorRbq6RKqr9fwOsPcQeoBOLRkoP1+P/4NBsP1t4JqWDEM7cAsNQI2WDEMj2L4Y2DMJvNAKcolfQjNHAf4m4ToFRKb5QGiFucDXb7rWb8tljHEfqDCm8KoxFx4Z0zZiTF/CmJGkMbOLxnzkq5akFKVpOYslcrVJt9edwbNGeebzXmPu3zDm4gljSlxPv7fneb44vaUpilGCkp5XsOh5+8TzDtAhqqQjWVSQq93PvXvdGe4sd2aUXI85yvTlNdH/MIRFDYZJDYZJDYZH8BtrTS5QuubtDwAAAABJRU5ErkJggg==" InformativeScreenshot="fe375dad72becc88f3898680fa3fdf93.jpg" Selector="&lt;html app='msedge.exe' title='InAuto Final Project Video PE01 KaiSiang &amp;amp; Joshua - YouTube' /&gt;" Title="InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" Url="https://www.youtube.com/watch?v=TRllt7uCWto" />
         </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
       </uix:NApplicationCard>
     </Sequence>
   </Sequence>

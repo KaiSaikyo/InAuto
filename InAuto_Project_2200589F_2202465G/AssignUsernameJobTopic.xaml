@@ -5,7 +5,7 @@
     <x:Property Name="in_jobtopic" Type="InArgument(x:String)" />
     <x:Property Name="out_jobtopic" Type="OutArgument(x:String)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>868.8,499.20000000000005</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>865.6,530.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -78,10 +78,11 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="603.2,434.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence sap2010:Annotation.AnnotationText="Assigning input values for username as well as job topic to be searched." DisplayName="Sequence - Assign Username and Job Topic via Arguments" sap:VirtualizedContainerService.HintSize="603.2,465.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Sequence sap2010:Annotation.AnnotationText="Assigning input values for username as well as job topic to be searched." DisplayName="Sequence - Assign Username and Job Topic via Arguments" sap:VirtualizedContainerService.HintSize="540.8,322.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
