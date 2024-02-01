@@ -134,7 +134,7 @@
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Shows the project video made by us." AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" sap:VirtualizedContainerService.HintSize="483.2,1171.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_19" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V2">
+      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Shows the project video made by us." AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" sap:VirtualizedContainerService.HintSize="483.2,1171.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_19" OpenMode="IfNotOpen" ScopeGuid="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
