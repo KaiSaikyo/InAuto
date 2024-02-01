@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="SequenceOpenBrowserYouTube" sap:VirtualizedContainerService.HintSize="865.6,1522.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="SequenceOpenBrowserYouTube" sap:VirtualizedContainerService.HintSize="635.2000000000002,1522.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -119,14 +119,14 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="608,1457.6" sap2010:WorkflowViewState.IdRef="Sequence_70">
+  <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="645.6,1457.6" sap2010:WorkflowViewState.IdRef="Sequence_70">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="545.6,1314.4" sap2010:WorkflowViewState.IdRef="Sequence_68">
+    <Sequence sap2010:Annotation.AnnotationText="Opens youtube video for our project." DisplayName="Sequence - Open Browser YouTube" sap:VirtualizedContainerService.HintSize="583.2,1314.4" sap2010:WorkflowViewState.IdRef="Sequence_68">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -134,7 +134,7 @@
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Shows the project video made by us." AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" sap:VirtualizedContainerService.HintSize="483.2,1171.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_19" OpenMode="IfNotOpen" ScopeGuid="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V2">
+      <uix:NApplicationCard sap2010:Annotation.AnnotationText="Shows the project video made by us." AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Edge: InAuto Final Project Video PE01 KaiSiang &amp; Joshua - YouTube" sap:VirtualizedContainerService.HintSize="520.8,1171.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_19" OpenMode="IfNotOpen" ScopeGuid="7e627932-627f-4f29-95bc-dcbfc78f43c6" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
