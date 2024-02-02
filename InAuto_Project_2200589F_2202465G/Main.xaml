@@ -808,7 +808,7 @@
                                                                 <av:PointCollection x:Key="ConnectorLocation">260,2701.6 260,2721.6</av:PointCollection>
                                                               </scg:Dictionary>
                                                             </sap:WorkflowViewStateService.ViewState>
-                                                            <Sequence sap2010:Annotation.AnnotationText="Scraping data from the website to generate emails from chatgpt." DisplayName="Sequence - Scrap Data to ChatGPT" sap:VirtualizedContainerService.HintSize="200,143.2" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                                                            <Sequence sap2010:Annotation.AnnotationText="Scraping data from the website to generate emails from chatgpt." DisplayName="Sequence - Scrap Data to ChatGPT" sap:VirtualizedContainerService.HintSize="1187.2,7577.6" sap2010:WorkflowViewState.IdRef="Sequence_35">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
